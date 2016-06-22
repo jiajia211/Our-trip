@@ -38,7 +38,7 @@ static NSString *const wonderCellKey = @"cellKey2";
     [self.view addSubview:self.tableView];
     
     
-    //网络请求123
+    //网络请求
     [AFNetworkAPI HomeNetWorkRequestParams:nil Target:self Select:@selector(HomeDataProcessing:)];
     
 }
