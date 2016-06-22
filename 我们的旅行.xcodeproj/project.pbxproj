@@ -38,6 +38,8 @@
 		0C7B26651CF2A725008F218A /* ALLStory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B26641CF2A725008F218A /* ALLStory.m */; };
 		0C7B266E1CF3072A008F218A /* StroyDetailsHeadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B266C1CF3072A008F218A /* StroyDetailsHeadTableViewCell.m */; };
 		0C7B266F1CF3072A008F218A /* StroyDetailsHeadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C7B266D1CF3072A008F218A /* StroyDetailsHeadTableViewCell.xib */; };
+		0C997AC81D1A86D6009A3293 /* StoryDetailFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C997AC71D1A86D6009A3293 /* StoryDetailFooter.m */; };
+		0C997ACA1D1A86F9009A3293 /* StoryDetailFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C997AC91D1A86F9009A3293 /* StoryDetailFooter.xib */; };
 		0C9B991C1CFD586900273597 /* ViewControllerIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9B991B1CFD586900273597 /* ViewControllerIntercepter.m */; };
 		0C9B991F1CFD624400273597 /* WonderfulUserHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9B991E1CFD624400273597 /* WonderfulUserHeader.m */; };
 		0C9B99211CFD624F00273597 /* WonderfulUserHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C9B99201CFD624F00273597 /* WonderfulUserHeader.xib */; };
@@ -127,6 +129,9 @@
 		0C7B266B1CF3072A008F218A /* StroyDetailsHeadTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StroyDetailsHeadTableViewCell.h; sourceTree = "<group>"; };
 		0C7B266C1CF3072A008F218A /* StroyDetailsHeadTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StroyDetailsHeadTableViewCell.m; sourceTree = "<group>"; };
 		0C7B266D1CF3072A008F218A /* StroyDetailsHeadTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StroyDetailsHeadTableViewCell.xib; sourceTree = "<group>"; };
+		0C997AC61D1A86D6009A3293 /* StoryDetailFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryDetailFooter.h; sourceTree = "<group>"; };
+		0C997AC71D1A86D6009A3293 /* StoryDetailFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryDetailFooter.m; sourceTree = "<group>"; };
+		0C997AC91D1A86F9009A3293 /* StoryDetailFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryDetailFooter.xib; sourceTree = "<group>"; };
 		0C9B991A1CFD586900273597 /* ViewControllerIntercepter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerIntercepter.h; sourceTree = "<group>"; };
 		0C9B991B1CFD586900273597 /* ViewControllerIntercepter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerIntercepter.m; sourceTree = "<group>"; };
 		0C9B991D1CFD624400273597 /* WonderfulUserHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WonderfulUserHeader.h; sourceTree = "<group>"; };
@@ -344,6 +349,9 @@
 				0C732EC81CF3F5460053F4BD /* StoryDetailTableViewCell.h */,
 				0C732EC91CF3F5460053F4BD /* StoryDetailTableViewCell.m */,
 				0C732ECA1CF3F5460053F4BD /* StoryDetailTableViewCell.xib */,
+				0C997AC61D1A86D6009A3293 /* StoryDetailFooter.h */,
+				0C997AC71D1A86D6009A3293 /* StoryDetailFooter.m */,
+				0C997AC91D1A86F9009A3293 /* StoryDetailFooter.xib */,
 				0C9B991D1CFD624400273597 /* WonderfulUserHeader.h */,
 				0C9B991E1CFD624400273597 /* WonderfulUserHeader.m */,
 				0C9B99201CFD624F00273597 /* WonderfulUserHeader.xib */,
@@ -628,6 +636,7 @@
 				0C0F96991CD1F80C00B7CB56 /* Main.storyboard in Resources */,
 				0CAB4DF41CD9F9B600A83882 /* HeaderInSection.xib in Resources */,
 				0C732EE21CF54F540053F4BD /* WonderfulContentTableViewCell.xib in Resources */,
+				0C997ACA1D1A86F9009A3293 /* StoryDetailFooter.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -725,6 +734,7 @@
 				0CAB4DFC1CDB297A00A83882 /* Wonderful.m in Sources */,
 				0CAB4DD91CD89DE400A83882 /* DailyTableViewCell.m in Sources */,
 				0C9B99241CFD787E00273597 /* UserViewController.m in Sources */,
+				0C997AC81D1A86D6009A3293 /* StoryDetailFooter.m in Sources */,
 				0C0F96EF1CD207FD00B7CB56 /* Singleton.m in Sources */,
 				0C9B991F1CFD624400273597 /* WonderfulUserHeader.m in Sources */,
 				0CAB4DB71CD84DF900A83882 /* DailyStory.m in Sources */,
