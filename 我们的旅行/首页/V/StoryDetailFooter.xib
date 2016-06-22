@@ -31,14 +31,14 @@
                     <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUS-Ja-9Ks">
-                    <rect key="frame" x="38" y="55" width="42" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUS-Ja-9Ks">
+                    <rect key="frame" x="38" y="57.5" width="33" height="16"/>
                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                     <color key="textColor" red="0.81568627449999997" green="0.83529411760000005" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="哈哈哈哈哈哈哈" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8V-de-Lon">
-                    <rect key="frame" x="108" y="27.5" width="91" height="16"/>
+                    <rect key="frame" x="108" y="27" width="91" height="16"/>
                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                     <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
@@ -48,11 +48,13 @@
             <constraints>
                 <constraint firstItem="rR0-Ez-7bb" firstAttribute="centerY" secondItem="Pfq-Ls-sCX" secondAttribute="centerY" id="1kj-dG-aLr"/>
                 <constraint firstItem="mge-0g-eha" firstAttribute="leading" secondItem="O8Q-d3-1z2" secondAttribute="leading" constant="10" id="8gs-ae-dX8"/>
+                <constraint firstItem="bUS-Ja-9Ks" firstAttribute="centerY" secondItem="mge-0g-eha" secondAttribute="centerY" id="AUa-9K-W6S"/>
                 <constraint firstItem="Pfq-Ls-sCX" firstAttribute="leading" secondItem="O8Q-d3-1z2" secondAttribute="leading" constant="10" id="KUl-g2-0xz"/>
                 <constraint firstItem="E8V-de-Lon" firstAttribute="leading" secondItem="rR0-Ez-7bb" secondAttribute="trailing" constant="5" id="Kml-tI-teS"/>
                 <constraint firstItem="rR0-Ez-7bb" firstAttribute="leading" secondItem="Pfq-Ls-sCX" secondAttribute="trailing" constant="8" id="PFd-K0-Pxs"/>
                 <constraint firstItem="Pfq-Ls-sCX" firstAttribute="top" secondItem="O8Q-d3-1z2" secondAttribute="top" constant="25" id="asG-bj-7Wt"/>
                 <constraint firstItem="mge-0g-eha" firstAttribute="top" secondItem="Pfq-Ls-sCX" secondAttribute="bottom" constant="10" id="ayu-EF-UcY"/>
+                <constraint firstItem="bUS-Ja-9Ks" firstAttribute="leading" secondItem="rR0-Ez-7bb" secondAttribute="leading" id="hGD-wd-u5f"/>
                 <constraint firstItem="E8V-de-Lon" firstAttribute="centerY" secondItem="rR0-Ez-7bb" secondAttribute="centerY" id="l22-u3-wP8"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
